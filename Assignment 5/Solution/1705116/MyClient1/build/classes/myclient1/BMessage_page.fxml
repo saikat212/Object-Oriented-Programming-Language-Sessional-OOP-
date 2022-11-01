@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myclient1.BMessage_pageController">
+   <children>
+      <TextField fx:id="BMessage_text" layoutX="14.0" layoutY="100.0" prefHeight="88.0" prefWidth="272.0" promptText="Text will send to all Loged in Client" />
+      <Button layoutX="14.0" layoutY="212.0" mnemonicParsing="false" onAction="#BMessage_send_Action" text="Send BMessage" />
+      <Button layoutX="436.0" layoutY="73.0" mnemonicParsing="false" onAction="#BMessage_see_Action" text="SEE Message" />
+      <TextArea fx:id="textArea" layoutX="369.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField alignment="CENTER" layoutX="185.0" layoutY="14.0" prefHeight="25.0" prefWidth="251.0" text="BMessage" />
+      <Label layoutX="15.0" layoutY="77.0" prefHeight="17.0" prefWidth="334.0" text="Write BMessage to Send all Login User if You are Admin" />
+      <Label fx:id="send_result" layoutX="36.0" layoutY="258.0" prefHeight="38.0" prefWidth="218.0" />
+   </children>
+</AnchorPane>
